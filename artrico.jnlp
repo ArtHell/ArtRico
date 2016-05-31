@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="artrico.jnlp">
+  <information>
+    <title>ArtRico_scala2</title>
+    <vendor>Unknown</vendor>
+    <description>ArtRico_scala2</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="artrico.jar" size="921687" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="640" height="640" main-class="sample.ArtRico"  name="ArtRico_scala2" />
+  <update check="background"/>
+</jnlp>

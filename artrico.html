@@ -3,7 +3,7 @@
 <script>
     function launchApplication(jnlpfile) {
         dtjava.launch(            {
-                url : 'ArtRico_scala.jnlp'
+                url : 'artrico.jnlp'
             },
             {
                 javafx : '8.0+'
@@ -15,14 +15,14 @@
 </script>
 
 <script>
-    function javafxEmbedArtRico_scala_id() {
+    function javafxEmbedartrico_id() {
         dtjava.embed(
             {
-                id : 'ArtRico_scala_id',
-                url : 'ArtRico_scala.jnlp',
+                id : 'artrico_id',
+                url : 'artrico.jnlp',
                 placeholder : 'javafx-app-placeholder',
-                width : '600',
-                height : '400'
+                width : '640',
+                height : '640'
             },
             {
                 javafx : '8.0+'
@@ -31,13 +31,10 @@
         );
     }
     <!-- Embed FX application into web page once page is loaded -->
-    dtjava.addOnloadCallback(javafxEmbedArtRico_scala_id);
+    dtjava.addOnloadCallback(javafxEmbedartrico_id);
 </script>
 
 </head><body>
-<h2>Test page for <b>ArtRico_scala2</b></h2>
-  <b>Webstart:</b> <a href='ArtRico_scala.jnlp' onclick="return launchApplication('ArtRico_scala.jnlp');">click to launch this app as webstart</a><br><hr><br>
-
   <!-- Applet will be inserted here -->
   <div id='javafx-app-placeholder'></div>
 </body></html>
